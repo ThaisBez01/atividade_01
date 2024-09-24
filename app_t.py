@@ -1,4 +1,4 @@
-def coletar_informacoes():
+
     # Coletar informações do usuário
     nome = input("Insira seu nome: ")
     cpf = input("Insira seu CPF: ")
@@ -10,7 +10,6 @@ def coletar_informacoes():
     tipo_sanguineo = input("Insira seu tipo sanguíneo: ")
 
     # Exibir as informações coletadas
-    print("\nInformações Coletadas:")
     print(f"Nome: {nome}")
     print(f"CPF: {cpf}")
     print(f"E-mail: {email}")
@@ -20,5 +19,4 @@ def coletar_informacoes():
     print(f"Signo: {signo}")
     print(f"Tipo Sanguíneo: {tipo_sanguineo}")
 
-if __name__ == "__main__":
-    coletar_informacoes()
+
